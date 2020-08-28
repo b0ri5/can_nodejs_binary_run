@@ -2,21 +2,6 @@
 # yarn lockfile v1
 
 
-"@bazel/bazelisk@latest":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@bazel/bazelisk/-/bazelisk-1.6.1.tgz#f9e279d2fecaf6cec6ed676bc8714846f3704e40"
-  integrity sha512-2JpfZb6eYCGrdLdUJamncIpI4pgEAhPURYGg+rCgqoZDJxzADuOnpf/00dEBXPM2XByXNXTqsKEFN2gTaZz2mA==
-
-"@bazel/buildifier@latest":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@bazel/buildifier/-/buildifier-3.4.0.tgz#44ce98b33bf8057f5398a78f7d1c564760b43f6c"
-  integrity sha512-TdugkgxAIxSyXSBZcLlntQKJ/rGV3LSMjlYuvRr3YtQBn/2sIfpHX0dcNZ7zdCPkev9cK0kpEs42MkmKHY9peQ==
-
-"@bazel/ibazel@latest":
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.13.1.tgz#23788f67a6fbe83d96f2d055691df4917c10ac8d"
-  integrity sha512-FO1hBKpzpeBL0adnFYF2Dwl/7gox6ccKM6bb+x26AXrQpLbinXPuTi4zeXRL/MW4383mF6i4RovLCmwUU/YW0w==
-
 "@bazel/typescript@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-2.0.3.tgz#0be019014ef973f3a415c4671c65d943afc62023"
@@ -149,7 +134,7 @@ tsutils@2.27.2:
   dependencies:
     tslib "^1.8.1"
 
-typescript@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.2.tgz#7ea7c88777c723c681e33bf7988be5d008d05ac2"
-  integrity sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ==
+typescript@^3.7.5:
+  version "3.9.7"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
+  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
