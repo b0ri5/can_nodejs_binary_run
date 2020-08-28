@@ -1,0 +1,13 @@
+load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
+load("@npm//@bazel/typescript:index.bzl", "ts_library")
+
+ts_library(
+    name = "hi_lib",
+    srcs = ["hi.ts"],
+)
+
+nodejs_binary(
+    name = "hi",
+    data = [":hi_lib"],
+    entry_point = ":hi_lib.ts",
+)
