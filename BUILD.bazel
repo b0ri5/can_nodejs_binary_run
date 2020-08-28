@@ -9,5 +9,5 @@ ts_library(
 nodejs_binary(
     name = "hi",
     data = [":hi_lib"],
-    entry_point = ":hi_lib.ts",
+    entry_point = ":hi.ts",
 )
